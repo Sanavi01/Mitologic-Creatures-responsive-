@@ -1,7 +1,29 @@
 :root{
-   --bg-color: gainsboro
+   --bg-color: black
 }
 
 body{
    background-color: gainsboro;
 }
+
+a{
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+}
+
+a:hover{
+   color: gold;
+}
+
+#navbar, #welcome{
+   background-color: var(--bg-color);
+}
+
+#welcome-info, #slider{
+   justify-self: center;
+   align-self: center;
+   padding: 20px;
+}
+
+

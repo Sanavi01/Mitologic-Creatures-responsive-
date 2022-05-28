@@ -7,55 +7,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
+    <title>Mitologic Creatures</title>
 </head>
 
 <body>
     <!--NAV-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="">SANTIAGO AVILA</a>
+    <nav class="navbar navbar-expand-sm navbar-dark" id="navbar">
+        <div class="container-fluid" style="padding: 0px 30px;">
+            <a class="navbar-brand" href="">
+                <img src="img/logo-brand.jpg" style="border-radius: 20px; height: 100px;" alt="runic">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toogle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="">Bienvenida</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">Presentacion</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">Tecnologias aprendidas</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">Proyectos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">Contacto</a></li>
+                <ul class="navbar-nav ms-auto" style="gap: 12px;">
+                    <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Culture</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Most Powerful</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">List of Creatures</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Creator</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!--CAROUSEL-->
-    <div class="container-sm">
-        <div class="carousel slide" data-bs-ride="carousel" id="mainSlider" >
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="4000">
-                    <img src="img/carousel-1.jpg" class="d-block w-100" alt="">
+    <!-- WELCOME - CAROUSEL-->
+    <div id="welcome">
+        <div class="row" style="padding: 20px;">
+            <div class="col-sm-6" id="welcome-info">
+                <div>
+                    <h1 style="color: gold;">Mythological Creatures!</h1>
+                    <p style="text-align: justify; color: white;">A <b>legendary creature</b> (mythical or mythological
+                        creature) is a type
+                        of fictional entity, typically a hybrid, that has not been proven and that is described in
+                        folklore (including myths and legends), but may be featured in historical accounts before
+                        modernity. <a href="https://en.wikipedia.org/wiki/Legendary_creature">More info...</a> </p>
                 </div>
-                <div class="carousel-item" data-bs-interval="4000">
-                    <img src="img/carousel-2.jpg" class="d-block w-100" alt="">
-                </div>
-                <div class="carousel-item" data-bs-interval="4000">
-                    <img src="img/carousel-3.jpg" class="d-block w-100" alt="">
-                </div>
-                <div class="carousel-item " data-bs-interval="000">
-                    <img src="img/carousel-4.jpg" class="d-block w-100" alt="">
+
+            </div>
+
+            <div class="col-sm-6" id="slider">
+                <div class="container-sm">
+                    <div class="carousel slide" data-bs-ride="carousel" id="mainSlider">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="4000">
+                                <img src="img/carousel-1.jpg" class="d-block w-100" alt="centauro">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="4000">
+                                <img src="img/carousel-2.jpg" class="d-block w-100" alt="dragon">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="4000">
+                                <img src="img/carousel-3.jpg" class="d-block w-100" alt="sirena">
+                            </div>
+                            <div class="carousel-item " data-bs-interval="4000">
+                                <img src="img/carousel-4.jpg" class="d-block w-100" alt="medusa">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-        
+        <!--CONTENT - CREATURES IN COUNTRIES-->
 
-    <script src="js/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-        crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"
-        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
-        crossorigin="anonymous"></script>
+
+        <script src="js/popper.min.js"
+            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+            crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js"
+            integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
