@@ -1,5 +1,6 @@
 :root{
-   --bg-color: black
+   --bg-color: black;
+   --text-color-contrast: white;
 }
 
 body{
@@ -16,7 +17,23 @@ a:hover{
    color: gold;
 }
 
-#navbar, #welcome{
+h1,h2,h3,h4{
+color: gold;
+}
+
+h2{
+   text-align: center;
+}
+ 
+p{
+   color:var(--text-color-contrast)
+}
+
+.row{
+   padding: 20px;
+}
+
+#navbar, #welcome, #content-countries{
    background-color: var(--bg-color);
 }
 
@@ -25,5 +42,16 @@ a:hover{
    align-self: center;
    padding: 20px;
 }
+
+#content-countries{
+   padding: 20px;
+}
+
+.cards{
+   justify-self: center;
+   align-self: center;
+}
+
+
 
 
