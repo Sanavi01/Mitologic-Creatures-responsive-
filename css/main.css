@@ -34,7 +34,7 @@ p{
    padding: 20px;
 }
 
-#navbar, #welcome, #content-countries, #quote, #list{
+#navbar, #welcome, #content-countries, #quote, #list, #creator{
    background-color: var(--bg-color);
 }
 
